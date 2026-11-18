@@ -93,22 +93,23 @@
     <p class="meta">
       Uygulama: <strong>Nonogram for Cars</strong>
       (<code>com.oguzhanyucel.carnonogram</code>) · Android Automotive OS ·
-      Son güncelleme: 21 Eylül 2026
+      Son güncelleme: 18 Kasım 2026
     </p>
 
     <h2>Kısaca</h2>
     <p>
-      Nonogram for Cars geliştiriciye hiçbir kişisel veri toplamaz veya aktarmaz. Uygulamanın
-      geliştiriciye ait sunucusu, reklamı, analitik sistemi, çökme raporlama hizmeti, sosyal özelliği
-      veya kullanıcı hesabı yoktur. Konum, kişiler, mikrofon, kamera, dosyalar ve araç verisi okunmaz.
+      Nonogram for Cars geliştiriciye hiçbir kişisel veri toplamaz veya aktarmaz. Uygulama
+      <strong>tamamen ücretsizdir</strong>; uygulama içi satın alma, abonelik ve reklam içermez.
+      Geliştiriciye ait sunucusu, analitik sistemi, çökme raporlama hizmeti, sosyal özelliği veya
+      kullanıcı hesabı yoktur. Konum, kişiler, mikrofon, kamera, dosyalar ve araç verisi okunmaz.
+      Uygulama <strong>hiçbir Android izni bildirmez</strong> ve internete hiç bağlanmaz.
     </p>
 
     <h2>Toplanan veya paylaşılan veri</h2>
     <p>
       <strong>Yok.</strong> Bulmaca ilerlemesi ve kullanım bilgileri geliştiriciye gönderilmez ve
-      geliştirici tarafından üçüncü taraflarla paylaşılmaz. Google Play üzerinden yapılan isteğe bağlı
-      satın alma Google tarafından işlenir; geliştirici ödeme kartına, fatura adresine veya Play hesap
-      kimlik bilgilerine erişmez.
+      geliştirici tarafından üçüncü taraflarla paylaşılmaz. Uygulamada ödeme adımı bulunmadığı için
+      ödeme kartı, fatura adresi veya hesap kimlik bilgisi hiçbir aşamada söz konusu değildir.
     </p>
 
     <h2>Yalnızca araçta saklanan veriler</h2>
@@ -117,8 +118,6 @@
       <li>Tamamlanan bulmaca kimlikleri, bulmaca başına en iyi süreler ve paket ilerlemesi</li>
       <li>Toplam tamamlanan bulmaca, oyun süresi, hata ve kullanılan ipucu istatistikleri</li>
       <li>“Hataları anında göster” gibi cihaz içi oyun ayarları</li>
-      <li>14 günlük denemeyi hesaplamak için ilk çalıştırma ve görülen en ileri zaman damgaları</li>
-      <li>Google Play tarafından bildirilen <code>pro_unlock</code> / Unlimited hakkının yerel önbelleği</li>
     </ul>
     <p>
       Bu bilgiler Android uygulama korumalı alanındaki <code>SharedPreferences</code> depolamasında
@@ -128,9 +127,8 @@
 
     <h2>Verilerin kullanım amacı</h2>
     <p>
-      Yerel veriler yalnızca kaldığınız bulmacaya devam etmek, paket ilerlemesini ve istatistikleri
-      göstermek, deneme süresini hesaplamak ve daha önce doğrulanmış Unlimited erişimini çevrimdışıyken
-      korumak için kullanılır. Profil oluşturma, reklam hedefleme, pazarlama veya kullanıcılar arası
+      Yerel veriler yalnızca kaldığınız bulmacaya devam etmek ile paket ilerlemesini ve istatistikleri
+      göstermek için kullanılır. Profil oluşturma, reklam hedefleme, pazarlama veya kullanıcılar arası
       karşılaştırma yapılmaz.
     </p>
 
@@ -142,33 +140,37 @@
       uygulama verileri temizlenerek veya uygulama kaldırılarak silinebilir.
     </p>
     <p>
-      Uygulamada hesap bulunmadığı için hesap silme süreci yoktur. Google Play satın alma kaydı Play
-      hesabında Google tarafından tutulur ve Google'ın kendi saklama/silme kurallarına tabidir. Uygulama
-      verilerini silmek Play satın alma kaydını silmez; “Satın almayı geri yükle” işlemi hakkı yeniden
-      sorgulayabilir.
+      Uygulamada hesap bulunmadığı için hesap silme süreci yoktur. Geliştiricide saklanan hiçbir
+      kayıt bulunmadığından silinmesi istenebilecek uzak bir veri de yoktur; uygulamayı kaldırmak
+      tüm veriyi ortadan kaldırır.
     </p>
 
-    <h2>Google Play Billing</h2>
+    <h2>Ücretsiz uygulama — satın alma yok</h2>
     <p>
-      İlk 14 gün bütün bulmacalar ve özellikler açıktır. Sonrasında isteğe bağlı, tek seferlik ve
-      tüketilmeyen <code>pro_unlock</code> ürünü Unlimited erişimi açar. Abonelik yoktur. Uygulama Play'den
-      yerelleştirilmiş fiyatı, satın alma durumunu ve varsa bekleyen işlemi sorgular; yalnızca
-      <strong>PURCHASED</strong> durumu doğrulanıp satın alma acknowledge edildikten sonra hak verir.
-      Bekleyen veya iptal edilen işlem erişim sağlamaz.
+      Nonogram for Cars 1.1.0 sürümünden itibaren tamamen ücretsizdir. 160 bulmacanın tamamı ilk
+      açılıştan itibaren açıktır. Uygulama içi satın alma, abonelik, deneme süresi ve reklam yoktur.
+    </p>
+    <p>
+      1.1.0 ile <strong>Google Play Billing kütüphanesi uygulamadan tamamen kaldırılmıştır.</strong>
+      Önceki sürümlerde 14 günlük deneme süresini hesaplamak ve <code>pro_unlock</code> hakkını
+      önbelleğe almak için cihazda tutulan zaman damgaları ile hak bilgisi artık ne yazılır ne okunur.
+      Bu veriler zaten yalnızca araçta duruyordu ve hiçbir zaman geliştiriciye gönderilmedi.
     </p>
 
-    <h2>İzinler ve ağ trafiği</h2>
-    <p>Uygulamanın kullanıcıdan istediği çalışma zamanı izni yoktur. Birleşmiş uygulama manifestinde:</p>
-    <ul>
-      <li><code>com.android.vending.BILLING</code> — tek seferlik Unlimited satın alması ve geri yükleme</li>
-      <li><code>android.permission.INTERNET</code> — ürün fiyatını ve satın alma hakkını Google Play ile sorgulama</li>
-      <li><code>android.permission.ACCESS_NETWORK_STATE</code> — bağlantı durumunu belirleme</li>
-    </ul>
+    <h2>İzinler ve ağ erişimi</h2>
     <p>
-      Ağ trafiği yalnızca Google Play Billing bağlantısı kurulurken, ürün bilgisi/fiyatı alınırken ve
-      satın alma hakkı sorgulanıp onaylanırken oluşur. Uygulamanın geliştiriciye ait bir ağ uç noktası
-      yoktur. Google Play'in veri uygulamaları için
-      <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a> geçerlidir.
+      Uygulama kullanıcıdan hiçbir çalışma zamanı izni istemez ve birleştirilmiş uygulama
+      manifestinde <strong>tek bir Android izni dahi bildirilmez</strong>. Önceki sürümlerdeki
+      <code>com.android.vending.BILLING</code>, <code>android.permission.INTERNET</code> ve
+      <code>android.permission.ACCESS_NETWORK_STATE</code> satırlarının üçü de Billing kütüphanesiyle
+      birlikte kaldırılmıştır.
+    </p>
+    <p>
+      Buna bağlı olarak uygulama <strong>hiçbir ağ bağlantısı kurmaz</strong>: ne geliştiriciye ait ne de
+      üçüncü tarafa ait bir uç noktaya istek gönderir. Bütün bulmaca içeriği uygulama paketinin
+      içindedir ve çevrimdışı çalışır. Uygulamanın Google Play üzerinden kurulması ve güncellenmesi
+      Play Store uygulamasının kendi işlevidir; bu trafiğe
+      <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a> uygulanır.
     </p>
 
     <h2>Güvenlik, çocuklar ve araç kullanımı</h2>
@@ -185,7 +187,7 @@
       güncellenecektir. Gizlilik soruları için
       <a href="mailto:oguzhanyucel44@gmail.com">oguzhanyucel44@gmail.com</a> adresine yazabilirsiniz.
     </p>
-    <p class="callout">Bu politika uygulamanın 1.0.0 sürümündeki davranışı açıklar.</p>
+    <p class="callout">Bu politika uygulamanın 1.1.0 sürümündeki davranışı açıklar.</p>
   </article>
 
   <article id="english" lang="en">
@@ -194,21 +196,23 @@
     <p class="meta">
       App: <strong>Nonogram for Cars</strong>
       (<code>com.oguzhanyucel.carnonogram</code>) · Android Automotive OS ·
-      Last updated: 21 September 2026
+      Last updated: 18 November 2026
     </p>
 
     <h2>In short</h2>
     <p>
-      Nonogram for Cars collects or transmits no personal data to the developer. The app has no
-      developer-owned server, advertising, analytics, crash reporting, social feature or user account.
-      It reads no location, contacts, microphone, camera, files or vehicle data.
+      Nonogram for Cars collects or transmits no personal data to the developer. The app is
+      <strong>completely free</strong>, with no in-app purchases, no subscription and no advertising.
+      It has no developer-owned server, analytics, crash reporting, social feature or user account,
+      and it reads no location, contacts, microphone, camera, files or vehicle data. The app
+      <strong>declares no Android permission at all</strong> and never connects to the internet.
     </p>
 
     <h2>Data collected or shared</h2>
     <p>
       <strong>None.</strong> Puzzle progress and usage information are not sent to the developer or
-      shared by the developer with third parties. An optional purchase through Google Play is processed
-      by Google; the developer never receives payment-card, billing-address or Play-account credentials.
+      shared by the developer with third parties. The app contains no payment step, so payment-card
+      details, billing addresses and account credentials are never involved at any stage.
     </p>
 
     <h2>Data stored only in the vehicle</h2>
@@ -217,8 +221,6 @@
       <li>Completed puzzle identifiers, best time per puzzle and pack progress</li>
       <li>Aggregate completed-puzzle, play-time, mistake and used-hint statistics</li>
       <li>On-device game preferences such as “Show mistakes instantly”</li>
-      <li>The first-run and furthest-seen timestamps used to calculate the 14-day trial</li>
-      <li>A local cache of the <code>pro_unlock</code> / Unlimited entitlement reported by Google Play</li>
     </ul>
     <p>
       This information is kept in <code>SharedPreferences</code> inside Android's app sandbox. It cannot
@@ -228,9 +230,8 @@
 
     <h2>How local data is used</h2>
     <p>
-      Local data is used only to resume a puzzle, display pack progress and statistics, calculate the
-      trial period, and preserve a previously verified Unlimited entitlement while offline. It is not
-      used for profiling, targeted advertising, marketing or comparisons between users.
+      Local data is used only to resume a puzzle and to display pack progress and statistics. It is
+      not used for profiling, targeted advertising, marketing or comparisons between users.
     </p>
 
     <h2>Retention and deletion</h2>
@@ -241,32 +242,36 @@
       uninstalling the app.
     </p>
     <p>
-      The app has no account, so there is no account-deletion process. Google Play purchase records are
-      kept in the Play account by Google and are subject to Google's own retention and deletion
-      practices. Clearing app data does not erase the Play purchase record; “Restore purchase” can query
-      the entitlement again.
+      The app has no account, so there is no account-deletion process. Because the developer stores
+      no records at all, there is also no remote data that could be requested for deletion;
+      uninstalling the app removes everything.
     </p>
 
-    <h2>Google Play Billing</h2>
+    <h2>Free app — no purchases</h2>
     <p>
-      Every puzzle and feature is open for the first 14 days. Afterwards, the optional, one-time,
-      non-consumable <code>pro_unlock</code> product enables Unlimited access. There is no subscription.
-      The app asks Play for the localized price, purchase status and any pending transaction. Access is
-      granted only after a <strong>PURCHASED</strong> state is verified and the purchase is acknowledged.
-      Pending or canceled transactions do not unlock access.
+      As of version 1.1.0 Nonogram for Cars is completely free. All 160 puzzles are unlocked from the
+      first launch. There are no in-app purchases, no subscription, no trial period and no advertising.
+    </p>
+    <p>
+      Version 1.1.0 <strong>removed the Google Play Billing library from the app entirely.</strong>
+      The timestamps earlier versions kept on the device to calculate the 14-day trial, and the cached
+      <code>pro_unlock</code> entitlement, are no longer written or read. That data never left the
+      vehicle and was never sent to the developer.
     </p>
 
-    <h2>Permissions and network traffic</h2>
-    <p>The app asks the user for no runtime permission. Its merged application manifest contains:</p>
-    <ul>
-      <li><code>com.android.vending.BILLING</code> — the one-time Unlimited purchase and restore flow</li>
-      <li><code>android.permission.INTERNET</code> — product-price and entitlement queries with Google Play</li>
-      <li><code>android.permission.ACCESS_NETWORK_STATE</code> — connectivity status</li>
-    </ul>
+    <h2>Permissions and network access</h2>
     <p>
-      Network traffic occurs only when connecting to Google Play Billing, requesting product details and
-      price, or querying and acknowledging the purchase entitlement. The app has no developer-owned
-      network endpoint. Google's data practices are covered by the
+      The app asks the user for no runtime permission, and its merged application manifest
+      <strong>declares no Android permission at all</strong>. The
+      <code>com.android.vending.BILLING</code>, <code>android.permission.INTERNET</code> and
+      <code>android.permission.ACCESS_NETWORK_STATE</code> entries present in earlier versions were all
+      removed together with the Billing library.
+    </p>
+    <p>
+      As a result the app <strong>makes no network connection</strong> — it sends no request to any
+      developer-owned or third-party endpoint. All puzzle content ships inside the application package
+      and works offline. Installing and updating the app through Google Play is handled by the Play
+      Store app itself; that traffic is covered by the
       <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
     </p>
 
@@ -284,7 +289,7 @@
       above will be updated before release. For privacy questions, email
       <a href="mailto:oguzhanyucel44@gmail.com">oguzhanyucel44@gmail.com</a>.
     </p>
-    <p class="callout">This policy describes the behavior of app version 1.0.0.</p>
+    <p class="callout">This policy describes the behavior of app version 1.1.0.</p>
   </article>
 </main>
 </body>
